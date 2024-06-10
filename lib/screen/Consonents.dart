@@ -159,14 +159,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Padding(
                         padding: EdgeInsets.only(right: 70, top: 50),
-                        child: ElevatedlabelLarge(
+                        child: ElevatedButton(
                           onPressed: onBackPressed,
                           child: Text('Back'),
                         ),
                       ),
                       Padding(
                         padding: EdgeInsets.only(left: 70, top: 50),
-                        child: ElevatedlabelLarge(
+                        child: ElevatedButton(
                           onPressed: onNextPressed,
                           child: Text('Next'),
                         ),

@@ -130,8 +130,8 @@ class _MultiplicationTableState extends State<MultiplicationTable> {
                         fontWeight: FontWeight.bold),
                   ),
                   SizedBox(height: 20),
-                  ElevatedlabelLarge(
-                    style: ElevatedlabelLarge.styleFrom(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.greenAccent,
                       textStyle: const TextStyle(
                           color: Colors.white,
